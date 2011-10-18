@@ -1,0 +1,6 @@
+cookbook_paths:
+- ./vendor/cookbooks/
+- ./chef/cookbooks/
+recipes:
+- pivotal_workstation::ack
+- pivotal_workstation::git_projects

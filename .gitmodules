@@ -1,0 +1,3 @@
+[submodule "vendor/cookbooks/pivotal_workstation"]
+	path = vendor/cookbooks/pivotal_workstation
+	url = https://github.com/pivotal/pivotal_workstation.git
