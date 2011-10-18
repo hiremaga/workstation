@@ -23,7 +23,6 @@ recipes:
 - pivotal_workstation::homebrew
 - pivotal_workstation::gitx
 - pivotal_workstation::github_for_mac
-- pivotal_workstation::ccmenu
 - pivotal_workstation::textmate
 - pivotal_workstation::textmate_preferences
 - pivotal_workstation::keycastr
