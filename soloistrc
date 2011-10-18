@@ -36,3 +36,4 @@ recipes:
 - pivotal_workstation::rubymine_preferences_pivotal
 - pivotal_workstation::gem_no_rdoc_no_ri
 - pivotal_workstation::git_projects
+- workstation::redis
