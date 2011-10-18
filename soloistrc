@@ -41,3 +41,4 @@ recipes:
 - pivotal_workstation::git_projects
 - pivotal_workstation::dock_preferences
 - workstation::redis
+- workstation::fix_function_keys
