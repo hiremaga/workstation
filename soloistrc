@@ -31,9 +31,11 @@ recipes:
 - pivotal_workstation::bash_profile-git_completion
 - pivotal_workstation::mysql
 - pivotal_workstation::postgres
+- pivotal_workstation::mongodb
 - pivotal_workstation::rvm
 - pivotal_workstation::rubymine
 - pivotal_workstation::rubymine_preferences_pivotal
+- pivotal_workstation::imagemagick
 - pivotal_workstation::gem_no_rdoc_no_ri
 - pivotal_workstation::git_projects
 - workstation::redis
