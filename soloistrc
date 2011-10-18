@@ -21,13 +21,15 @@ recipes:
 - pivotal_workstation::git_config_global_defaults
 - pivotal_workstation::git_scripts
 - pivotal_workstation::homebrew
+- pivotal_workstation::unix_essentials
+- pivotal_workstation::bash_path_order
+- pivotal_workstation::bash_profile-git_completion
+- pivotal_workstation::iterm_set_defaults
 - pivotal_workstation::gitx
 - pivotal_workstation::github_for_mac
 - pivotal_workstation::textmate
 - pivotal_workstation::textmate_preferences
 - pivotal_workstation::keycastr
-- pivotal_workstation::unix_essentials
-- pivotal_workstation::bash_profile-git_completion
 - pivotal_workstation::mysql
 - pivotal_workstation::postgres
 - pivotal_workstation::mongodb
@@ -37,4 +39,5 @@ recipes:
 - pivotal_workstation::imagemagick
 - pivotal_workstation::gem_no_rdoc_no_ri
 - pivotal_workstation::git_projects
+- pivotal_workstation::dock_preferences
 - workstation::redis
