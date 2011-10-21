@@ -19,6 +19,7 @@ recipes:
 - pivotal_workstation::defaults_fast_key_repeat_rate
 - pivotal_workstation::workspace_directory
 - pivotal_workstation::git_config_global_defaults
+- workstation::git_config_global_defaults
 - pivotal_workstation::git_scripts
 - pivotal_workstation::homebrew
 - pivotal_workstation::unix_essentials
