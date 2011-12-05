@@ -43,3 +43,4 @@ recipes:
 - workstation::fix_function_keys
 - workstation::git_config_global_defaults
 - workstation::shell_commands
+- workstation::osx_packages
