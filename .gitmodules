@@ -1,3 +1,0 @@
-[submodule "vendor/cookbooks/pivotal_workstation"]
-	path = vendor/cookbooks/pivotal_workstation
-	url = git@github.com:hiremaga/pivotal_workstation.git

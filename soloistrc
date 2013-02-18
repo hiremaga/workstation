@@ -1,46 +1,18 @@
-cookbook_paths:
-- ./vendor/cookbooks/
-- ./chef/cookbooks/
 recipes:
-- pivotal_workstation::ack
-- pivotal_workstation::java
-- pivotal_workstation::sshd_on
-- pivotal_workstation::screen_sharing_app
-- pivotal_workstation::skype
-- pivotal_workstation::sizeup
-- pivotal_workstation::firefox
-- pivotal_workstation::bash_profile-better_history
-- pivotal_workstation::bash_profile-ps1
-- pivotal_workstation::inputrc
-- pivotal_workstation::locate_on
-- pivotal_workstation::dropbox
-- pivotal_workstation::chrome
-- pivotal_workstation::mouse_locator
-- pivotal_workstation::defaults_fast_key_repeat_rate
-- pivotal_workstation::workspace_directory
-- pivotal_workstation::git_scripts
-- pivotal_workstation::homebrew
-- pivotal_workstation::unix_essentials
-- pivotal_workstation::bash_path_order
-- pivotal_workstation::bash_profile-git_completion
-- pivotal_workstation::iterm_set_defaults
-- pivotal_workstation::gitx
-- pivotal_workstation::github_for_mac
-- pivotal_workstation::textmate
-- pivotal_workstation::textmate_preferences
-- pivotal_workstation::keycastr
-- pivotal_workstation::mysql
-- pivotal_workstation::postgres
-- pivotal_workstation::mongodb
-- pivotal_workstation::rvm
-- pivotal_workstation::rubymine
-- pivotal_workstation::rubymine_preferences_pivotal
-- pivotal_workstation::imagemagick
-- pivotal_workstation::gem_no_rdoc_no_ri
-- pivotal_workstation::git_projects
-- pivotal_workstation::dock_preferences
-- workstation::redis
-- workstation::fix_function_keys
-- workstation::git_config_global_defaults
-- workstation::shell_commands
-- workstation::osx_packages
+- pivotal_workstation::meta_osx_base
+- pivotal_workstation::meta_osx_development
+- pivotal_workstation::meta_ruby_development
+- workstation::packages
+node_attributes:
+  git_projects:
+     - - hiremaga-workstation
+       - git@github.com:hiremaga/workstation.git
+     - - pivotal-pivotal_workstation
+       - git@github.com:pivotal/pivotal_workstation.git
+  rvm:
+     default_ruby: ruby-1.9.3-p394
+     rubies:
+       ruby-1.9.3-p374:
+         command_line_options: "--verify-downloads 1"
+       ruby-1.9.3-p194:
+         command_line_options: "--with-gcc=clang"

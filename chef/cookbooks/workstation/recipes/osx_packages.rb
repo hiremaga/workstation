@@ -1,1 +1,0 @@
-brew_install 'qt' # For jasmine-headless-webkit
