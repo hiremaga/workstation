@@ -8,7 +8,7 @@ read -p "Now download & install Command Line Tools from XCode > Preferences > Do
 
 ## 3. Temporary Clone
 cd /tmp
-git clone git@github.com:hiremaga/workstation.git
+git clone git://github.com/hiremaga/workstation.git
 cd workstation
 
 ## 4. Install Soloist et al.
