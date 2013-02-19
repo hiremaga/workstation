@@ -1,6 +1,6 @@
 # First Run
 
-    bash <(curl -s https://raw.github.com/hiremaga/workstation/master/bootstrap.sh)
+    bash -xe <(curl -s https://raw.github.com/hiremaga/workstation/master/bootstrap.sh)
 
 # Subsequent Runs
 
