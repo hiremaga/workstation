@@ -12,11 +12,18 @@ GIT
       dmg (>= 0.0.0)
 
 PATH
+  remote: site-cookbooks/apps
+  specs:
+    apps (0.1.0)
+      dmg (>= 0.0.0)
+
+PATH
   remote: site-cookbooks/workstation
   specs:
     workstation (0.1.0)
 
 DEPENDENCIES
+  apps (>= 0)
   pivotal_workstation (>= 0)
   workstation (>= 0)
 
