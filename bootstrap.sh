@@ -13,7 +13,7 @@ ssh-keygen -t rsa -C "$email"
 cat ~/.ssh/id_rsa.pub
 cat ~/.ssh/id_rsa.pub | pbcopy
 
-read -p "Your new SSH key has been copied to the clipboard add it to Github and press any key to continue"
+read -p "Your new SSH key has been copied to the clipboard, add it to Github and press any key to continue"
 
 # 4. Temporary Clone
 cd /tmp
