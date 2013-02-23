@@ -4,9 +4,9 @@ SITE
     dmg (1.1.0)
 
 GIT
-  remote: git://github.com/pivotal/pivotal_workstation.git
-  ref: 110c5192a12ed648a341d54f21f679a5b0680832
-  sha: 110c5192a12ed648a341d54f21f679a5b0680832
+  remote: git://github.com/hiremaga/pivotal_workstation.git
+  ref: master
+  sha: b6349695cbd1931d3ad68c1d5c8bab20ecbaf495
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)

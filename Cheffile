@@ -7,5 +7,5 @@ cookbook 'apps',
   :path => 'site-cookbooks/apps'
 
 cookbook 'pivotal_workstation',
-  :git => 'git://github.com/pivotal/pivotal_workstation.git',
-  :ref => '110c5192a12ed648a341d54f21f679a5b0680832'
+  # :path => '../pivotal_workstation'
+  :git => 'git://github.com/hiremaga/pivotal_workstation.git'
