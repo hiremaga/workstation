@@ -7,9 +7,11 @@ node_attributes:
      - - pivotal-pivotal_workstation
        - git@github.com:pivotal/pivotal_workstation.git
   rvm:
-     default_ruby: ruby-1.9.3-p394
+     default_ruby: ruby-1.9.3-p392
      rubies:
-       ruby-1.9.3-p374:
-         command_line_options: "--verify-downloads 1"
-       ruby-1.9.3-p194:
-         command_line_options: "--with-gcc=clang"
+       ruby-2.0.0-p0:
+         env:
+         command_line_options: --verify-downloads 1
+       ruby-1.9.3-p392:
+         env:
+         command_line_options: --verify-downloads 1
