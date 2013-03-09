@@ -6,7 +6,7 @@ SITE
 GIT
   remote: git://github.com/hiremaga/pivotal_workstation.git
   ref: master
-  sha: 17d2e5264171890109850303ee9d4b470db3b377
+  sha: edcac5ec7325ae93e552d9b0e2112509d0329c4c
   specs:
     pivotal_workstation (1.0.0)
       dmg (>= 0.0.0)
